@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>The Elements of Professionalism, Part Eleven: Delivering Hard News | Verandah Properties</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --teal:#008C82; --teal-wash:#E8F4F2; --gold:#C9A227; --gold-wash:#FBF5E3;
+  --ink:#1F1F1F; --ink-strong:#0F0F0F; --muted:#5A5651;
+  --paper:#FFFFFF; --page:#F4F5F4; --line:#DCDFDD; --charcoal:#1A1A1A;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --teal:#2BB3A8; --teal-wash:#12302D; --gold:#D9B74A; --gold-wash:#2E2814;
+    --ink:#E6E4E0; --ink-strong:#FFFFFF; --muted:#A8A39C;
+    --paper:#1B1D1C; --page:#121413; --line:#333836; --charcoal:#0C0D0D;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"]{
+  --teal:#2BB3A8; --teal-wash:#12302D; --gold:#D9B74A; --gold-wash:#2E2814;
+  --ink:#E6E4E0; --ink-strong:#FFFFFF; --muted:#A8A39C;
+  --paper:#1B1D1C; --page:#121413; --line:#333836; --charcoal:#0C0D0D;
+  color-scheme: dark;
+}
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;background:var(--page);color:var(--ink);font-family:'Jost',system-ui,-apple-system,'Segoe UI',Arial,sans-serif;font-weight:400;font-size:17px;line-height:1.7}
+.wrap{max-width:680px;margin:0 auto;background:var(--paper)}
+.mast{background:var(--charcoal);color:#D8D6D2;padding:20px 40px;display:flex;align-items:center;gap:12px;border-bottom:3px solid #008C82;font-size:15px;letter-spacing:.03em}
+.mono{width:36px;height:36px;border-radius:50%;background:#008C82;display:grid;place-items:center;font-family:'Cormorant Garamond',Georgia,serif;font-style:italic;font-size:22px;font-weight:600;color:#fff;flex:none}
+.body{padding:44px 40px 36px}
+.series{color:var(--teal);font-weight:500;font-size:15px;margin-bottom:6px}
+h1{font-family:'Cormorant Garamond',Georgia,'Times New Roman',serif;font-size:clamp(38px,7vw,52px);font-weight:600;line-height:1.08;color:var(--ink-strong);margin:0 0 10px}
+.date{color:var(--muted);font-size:15px;margin-bottom:34px}
+h2{font-family:'Cormorant Garamond',Georgia,'Times New Roman',serif;font-size:30px;font-weight:600;color:var(--ink-strong);line-height:1.15;margin:38px 0 12px}
+p{margin:0 0 18px}
+b,strong{font-weight:600;color:var(--ink-strong)}
+.lead{font-size:19px}
+.quote{margin:30px 0;padding:22px 26px;border-left:3px solid var(--gold);background:var(--gold-wash);border-radius:0 12px 12px 0;font-family:'Cormorant Garamond',Georgia,serif;font-size:26px;line-height:1.3;color:var(--ink-strong);font-style:italic}
+ul{padding-left:22px;margin:0 0 20px}
+li{margin-bottom:10px}
+.check{margin:26px 0 30px;border:1px solid var(--teal);border-radius:14px;overflow:hidden}
+.check-h{background:#008C82;color:#fff;padding:13px 22px;font-weight:500;font-size:15.5px}
+.check ol{margin:0;padding:20px 22px 8px 44px;background:var(--teal-wash)}
+.check li{margin-bottom:12px}
+.sign{margin-top:34px}
+.sign .name{font-family:'Cormorant Garamond',Georgia,serif;font-size:28px;font-weight:600;color:var(--ink-strong);line-height:1.1}
+.sign .role{color:var(--muted);font-size:15px}
+footer{background:var(--charcoal);color:#CFCBC5;padding:24px 40px 28px;font-size:14px;line-height:1.6;border-top:3px solid #008C82}
+footer .tag{font-family:'Cormorant Garamond',Georgia,serif;font-style:italic;font-size:20px;color:#E3C35C;margin-bottom:6px}
+@media (max-width:560px){.body{padding:34px 22px 28px}.mast,footer{padding-left:22px;padding-right:22px}}
+.ex{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:22px 0 26px}
+.exc{border:1px solid var(--line);border-radius:12px;padding:16px 18px;font-size:15.5px;line-height:1.55}
+.exc .t{font-size:13px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;margin-bottom:6px}
+.exc.bad .t{color:#9A3B2E}.exc.good{border-color:var(--teal);background:var(--teal-wash)}.exc.good .t{color:var(--teal)}
+@media (max-width:560px){.ex{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<div class="mast"><div class="mono">V</div>Verandah Properties, LLC</div>
+
+<div class="body">
+  <div class="series">The Elements of Professionalism · Part Eleven</div>
+  <h1>Delivering Hard News</h1>
+  <div class="date">Friday, October 30, 2026</div>
+
+  <p class="lead">Hi Team,</p>
+  <p class="lead">Back in Part One, I told you what I promise every owner before they sign with us: that we will tell them the truth, even when it is inconvenient for us. This week I want to talk about what that actually looks like when you are the one picking up the phone.</p>
+  <p>Because in this business, hard news is part of the job. The rent needs to come down. The repair costs more than the owner hoped. The applicant they were excited about did not qualify. The resident is giving notice. None of us enjoy making those calls. But how we make them is a big part of why owners trust us.</p>
+
+  <h2>Don't sit on it</h2>
+  <p>Bad news does not get better with time. It gets worse. An owner who hears about a problem on Monday has options. An owner who hears about the same problem on Friday feels like we kept it from them, even if we were only waiting for the right moment.</p>
+  <p>If you know something the owner needs to know, tell them that day. If you don't have all the answers yet, tell them what you know and when you will have the rest.</p>
+
+  <h2>Say it first</h2>
+  <p>When we are uncomfortable, we tend to warm up to the bad news with a lot of background first. By the time we get to the point, the owner is confused or bracing for something worse than it is.</p>
+  <p>Put the news in the first sentence or two. Then explain.</p>
+  <div class="ex">
+    <div class="exc bad"><div class="t">Harder to hear</div>So we've had the property on the market for about three weeks now, and we've been doing a lot of marketing, and the showings have been okay, and there's a lot of competition right now, so we were thinking it might make sense to maybe look at the price...</div>
+    <div class="exc good"><div class="t">Clearer</div>I'm calling because we're recommending a price reduction to $2,650. I want to walk you through why, because the numbers make a strong case for it.</div>
+  </div>
+  <p>The second version is not harsher. It is kinder, because the owner knows right away what we are talking about and can actually listen to the reasons.</p>
+
+  <h2>Bring the plan with the problem</h2>
+  <p>Never hand an owner bad news and stop there. Every hard conversation should include what we recommend doing about it. "The water heater has failed" is a problem. "The water heater has failed, here is the quote, and we can have it replaced tomorrow morning if you approve it today" is a plan.</p>
+  <p>Owners hired us to handle things. Even when the news is bad, they should hang up feeling like it is being handled.</p>
+
+  <h2>Be clear, not cold</h2>
+  <p>You can be kind and still be clear. Acknowledge that it is not what they wanted to hear. That is fine, and it is human. Just don't soften the message so much that the owner isn't sure what you told them. If they hang up thinking everything is fine when it isn't, we have not done our job.</p>
+  <p>And don't blame. Not the resident, not the vendor, not the market, and not another department. Stick to what happened and what we are doing about it.</p>
+
+  <h2>Follow up in writing</h2>
+  <p>After any hard conversation, send a short email recapping what was discussed and what was decided. It protects the owner, it protects us, and it means nobody has to rely on memory later. You already know how I feel about that from last week.</p>
+
+  <div class="check">
+    <div class="check-h">Before your next hard call</div>
+    <ol>
+      <li><b>Can I say the news in one or two sentences?</b> If not, write it down until you can.</li>
+      <li><b>Do I have a recommendation ready?</b> What do we suggest, what will it cost, and how fast can it happen?</li>
+      <li><b>Will I send a written recap afterward?</b> The answer should always be yes.</li>
+    </ol>
+  </div>
+
+  <p>I have made plenty of hard calls over the years, and I have never once had an owner thank me for waiting. I have had a lot of them thank me for being straight with them. If you're ever unsure how to handle one, come talk to Megan or to me before you make the call. That is what we are here for.</p>
+  <p>Thank you, as always.</p>
+
+  <div class="sign">
+    <div class="name">Pamela Syvertson</div>
+    <div class="role">Owner &amp; Broker, Verandah Properties, LLC</div>
+  </div>
+</div>
+
+<footer>
+  <div class="tag">The marriage, not the sprint.</div>
+  Verandah Properties, LLC · License CQ1048619 · 407-855-0331
+</footer>
+
+</div>
+</body>
+</html>
